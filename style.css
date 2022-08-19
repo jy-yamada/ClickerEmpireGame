@@ -1,0 +1,121 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: black !important;
+    font-family: 'Georgia','Tahoma','Comic Sans MS','Courier','Arial',sans-serif;
+}
+
+p {
+    margin: 0 !important;
+}
+
+#item-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 70vh;
+    min-width: fit-content;
+    background: rgba(0, 0, 0, 0.26);
+}
+
+#item-container::-webkit-scrollbar{
+   width: 4px;
+}
+
+#item-container::-webkit-scrollbar-track{
+   background-color: hsla(0,0%,0%,0.2);
+}
+#item-container::-webkit-scrollbar-thumb{
+   background-color: hsl(0, 45%, 40%);
+}
+
+.pos-num {
+    font-size: 1.3em;
+    color: hsl(50, 60%, 65%);
+}
+
+.sd {
+    color: hsl(0, 0%, 90%);
+    font-family: 'Leelawadee UI','San Fransisco','Helvetica','Arial',sans-serif;
+}
+
+.left, .right {
+    border: solid 4px hsl(50, 50%, 40%);
+    background: hsl(0, 50%, 20%);
+    max-height: fit-content;
+}
+
+.right {
+    border-left: none;
+}
+
+#burger-img:hover {
+    cursor: pointer;
+}
+
+.item {
+    border-bottom: solid 2px hsl(50, 50%, 20%);
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.info {
+    border-bottom: solid 2px hsl(50, 50%, 40%);
+}
+
+.vh {
+    height: 70vh;
+}
+
+#name {
+    background: black;
+    color: white;
+    -webkit-appearance: none;
+    border-radius: 0;
+    outline: none;
+    border: solid 2px hsl(50, 50%, 40%);
+}
+
+#start-btn, #continue-btn {
+    border: solid 2px hsl(50, 50%, 40%);
+    color: white;
+    background: hsl(0, 50%, 20%);
+    border-radius: 0;
+}
+
+.button {
+    border: solid 3px hsl(50, 50%, 40%);
+    border-radius: 0;
+    padding: .6em 0;
+    margin: 0 .6em;
+    font-weight: bold;
+    font-family: 'Leelawadee UI','San Fransisco','Helvetica','Arial',sans-serif;
+}
+
+#backBtn {
+    color: hsl(0, 50%, 20%);
+    background: white;
+}
+
+#nextBtn {
+    color: white;
+    background: hsl(0, 50%, 20%);
+}
+
+#backbtn:hover {
+    color: white;
+    background: hsl(0, 50%, 20%);
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.fs-1dot5em {
+    font-size: 1.5em;
+}
+
+.fs-2em {
+    font-size: 2em;
+}
